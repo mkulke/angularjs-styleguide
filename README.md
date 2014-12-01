@@ -132,7 +132,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
   // storage function is added as a global variable  
   function storage() { }
   ```
-
+	Instead do not pollute the global scope.
   
   ```javascript
   /**
