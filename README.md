@@ -982,12 +982,6 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
 ### Limit 1 Per File
 ###### [Style [Y070](#style-y070)]
 
-  - Create one directive per file. Name the file for the directive. 
-
-   *Why?*: It is easy to mash all the directives in one file, but difficult to then break those out so some are shared across apps, some across modules, some just for one module. 
-
-   *Why?*: One directive per file is easy to maintain.
-
   ```javascript
   /* avoid */
   /* directives.js */
