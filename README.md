@@ -982,7 +982,9 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
 ### Limit 1 Per File
 ###### [Style [Y070](#style-y070)]
 
-  - Create one directive per file. Name the file for the directive.
+  - When calling a data service that returns a promise such as $http, return a promise in your calling function too.
+
+    *Why?*: You can chain the promises together and take further action after the data call completes and resolves or rejects the promise.
 
   ```javascript
   /* avoid */
