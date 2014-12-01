@@ -984,10 +984,6 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
 
   - Create one directive per file. Name the file for the directive.
 
-    *Why?*: It is easy to mash all the directives in one file, but difficult to then break those out so some are shared across apps, some across modules, some just for one module.
-    
-    *Why?*: One directive per file is easy to maintain.
-
   ```javascript
   /* avoid */
   /* directives.js */
